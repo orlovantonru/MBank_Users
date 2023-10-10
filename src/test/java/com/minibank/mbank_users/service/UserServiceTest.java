@@ -2,8 +2,6 @@ package com.minibank.mbank_users.service;
 
 import com.minibank.mbank_users.model.User;
 import com.minibank.mbank_users.repository.UserRepository;
-import com.minibank.mbank_users.service.UserService;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -19,8 +17,6 @@ import java.util.Optional;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class UserServiceTest {
 
